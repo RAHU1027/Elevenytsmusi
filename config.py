@@ -6,9 +6,9 @@
 # Powered By   : Artist 
 # Type         : API Based Telegram Music Bot
 #
-# Bot          : @ArtistApibot
-# Channel      : https://t.me/artistbots
-# GitHub       : https://github.com/elevenyts
+# Bot          : @Kushalmusicbot
+# Channel      : https://t.me/+S2QGlifiZks0Mjk1
+# GitHub       : https://t.me/kushal_igcc_chats
 #
 # Unauthorized copying, modification, or redistribution
 # of this source code without permission is prohibited.
@@ -43,8 +43,8 @@ class Config:
         self.SESSION3: str = getenv("STRING_SESSION3", "")
 
         # Support Links
-        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/elevenytsmusic")
-        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/elevenytschats")
+        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/kushal_igcc_chats")
+        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/+S2QGlifiZks0Mjk1")
 
         # Excluded Chats
         self.EXCLUDED_CHATS: List[int] = self._parse_excluded_chats()
